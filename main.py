@@ -30,4 +30,4 @@ while True:
         account_balance -= amount
         print('Your balance is: $', account_balance)
     elif action == 's':
-        print(f'Account details:\nName: {account_name}\nBalance: ')
+        print(f'Account details:\nName: {account_name}\nBalance: {account_balance}')
